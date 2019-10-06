@@ -22,18 +22,18 @@ CREATE TABLE `banners` (
   `widht`  int(11) NOT NULL,
   `height` int(11) NOT NULL,
   `banners`, JSON_OBJECT(
-	    "id": 1,
-        "date": "2019-09-13T08:00:00Z",
-        "background_color": "#333333",
-        "background_image": "https://cdn.betstarters.com/banners/banner-1920x450.jpg",
-        "button_text": "Play Now!",
-        "button_color": "#FFFFFF",
-        "button_background": "#CDCDCD",
-        "title": "Play Now!",
-        "description": "Play Now!",
-        "text_align": "left",
-        "link": "https:\/\/online.sbbet.me\/banner-sport\/baner-kosarka-polufinale-1920x450\/",
-        "link_isExternal": true
+	    "id": "",
+        "date": "",
+        "background_color": "",
+        "background_image": "",
+        "button_text": "",
+        "button_color": "",
+        "button_background": "",
+        "title": "",
+        "description": "",
+        "text_align": "",
+        "link": "https:"",
+        "link_isExternal"": 
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --

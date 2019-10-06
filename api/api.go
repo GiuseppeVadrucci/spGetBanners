@@ -10,8 +10,8 @@ func MainGroup(e *echo.Echo) {
 	// Route / to handler function
 	e.GET("/health-check", handlers.HealthCheck)
 
-	e.GET("/cats/:data", handlers.GetCats)
-	e.POST("/cats", handlers.AddCat)
+	e.GET("/cms/banners:data", handlers.GetBann)
+	e.POST("/cms/banners", handlers.AddBann)
 
 }
 
